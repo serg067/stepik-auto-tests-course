@@ -17,7 +17,7 @@ summary_report_time = 0
 #token = "25dqh2VFCJwVsQoL"    #отчет за 10.01.22-14.01.22
 #token = "qaxGOV3kjHvyJiHa"    #отчет за 17.01-21.01
 #token = "MkYbntkSBhLaSJYT"    #отчет за 24.01-28.01    с начала ноября переработка 7 часов 53 минуты
-tokens = ("d3H1q2ziYvi5Yykl") #это список всех нужных токенов
+tokens = ('MkYbntkSBhLaSJYT', 'd3H1q2ziYvi5Yykl') #это список всех нужных токенов
 for token in tokens:
     url = "https://reportbot.olegb.ru/api/report_token?token=" + token
     r = requests.get(url)
